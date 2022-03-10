@@ -54,12 +54,20 @@ img {
     width: auto;
 }
 
+img.venue-image {
+    height: 300px;
+    width: 500px;
+}
+
 .section-one {
     display: flex;
     background-color: #1F2937;
     padding-left: 200px;
     padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     justify-content: space-between;
+    flex: auto;
 }
 
 .container {
@@ -85,6 +93,7 @@ p {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    text-align: center;
 }
 
 button.address {
@@ -97,8 +106,74 @@ button.address {
 }
 .section-two {
     display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+    flex: 1;
 }
 
-.bottle-images {
-    max-width: 200px;
+.section-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.author {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.section-four {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.box {
+    display: flex;
+    background-color: #3882F6;
+    padding: 24px 48px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-one {
+    text-align: left;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 900;
+    padding-bottom: 5px;
+}
+
+.text-two {
+    text-align: left;
+    color: #E5E7EB;
+}
+
+button.shop {
+    color: #F9FAF8;
+    background: #3882F6;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: 1px solid #F9FAF8;
+    border-radius: 5px;
 }
