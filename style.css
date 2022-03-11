@@ -2,14 +2,12 @@ body {
     font-family: Helvetica, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    min-height: 100vh;
     text-align: center;
 }
 
 .page {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .header, .footer {
@@ -51,6 +49,23 @@ a {
 img {
     height: 200px;
     width: auto;
+}
+
+.bottle-images img {
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.bottle-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    text-align: center;
+}
+
+.descriptions {
+    color: #1F2937;
 }
 
 img.venue-image {
@@ -99,7 +114,7 @@ button.address {
     color: #F9FAF8;
     background: #3882F6;
     padding: 5px 10px;
-    margin-top: 10px;
+    margin-top: 40px;
     border: 1px solid #3882F6;
     border-radius: 5px;
 }
@@ -111,6 +126,7 @@ button.address {
     padding-bottom: 50px;
     justify-content: space-between;
     flex: 1;
+    flex-wrap: wrap;
 }
 
 .section-three {
